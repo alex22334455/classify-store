@@ -1,0 +1,93 @@
+#header{
+    width: 100%;
+    height: 55px;
+    background: #f7f7f7;
+    box-shadow: 2px 2px 5px rgb(207, 207, 207);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#middle-box{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-header{
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgb(126, 126, 126);
+}
+
+#desc-header{
+    color: rgb(68, 68, 68);
+    font-size: 14px;
+}
+
+#product-box-icon{
+    margin-right: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box-menu{
+    width: 39px;
+    height: 39px;
+    margin-left: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-icon{
+    font-size: 26px;
+    color: rgb(16, 68, 99);
+}
+
+#product-icon{
+    font-size: 35px;
+    color: rgb(16, 68, 99);
+}
+
+#product-number{
+    font-size: 15px;
+    font-family: cursive;
+    color: rgb(236, 236, 236);
+    border: 1px solid white;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 134, 134);
+    padding: 5px;
+    transform: translateX(-13px);
+}
+
+@media screen and (min-width: 320px) and (max-width: 540px) {
+    #header{
+        height: 57px;
+    }
+
+    #box-menu{
+        margin-left: 10px;
+    }
+
+    #product-box-icon{
+        margin-right: 10px;
+    }
+
+    #title-header{
+        font-size: 18px;
+    }
+
+    #desc-header{
+        font-size: 11px;
+    }
+}
